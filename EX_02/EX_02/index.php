@@ -16,6 +16,9 @@
     elseif($_GET['page'] == 'contact'){
         include("vitrine-contacts.php");
     }
+    elseif($_GET['page'] =='contact-form'){
+        include('contact-form.php');
+    }
     else {
         include("404.php");
     }

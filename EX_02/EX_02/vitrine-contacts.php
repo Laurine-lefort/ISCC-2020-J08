@@ -10,7 +10,7 @@
 
     <body>
         <div id="after_submit"></div>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+<form id="contact_form" action="http://localhost/iscc/ISCC-2020-J08/Exo_02/index.php?page=contact-form" method="POST" enctype="multipart/form-data">
   <div class="row">
     <label class="required" for="name">Your name:</label><br />
     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
