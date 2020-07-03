@@ -16,6 +16,9 @@
     elseif($_GET['page'] == 'contact'){
         include("vitrine-contacts.php");
     }
+    else {
+        include("http://localhost:8888/ISCC-2020/ISCC-2020-J08/EX_02/EX_02/erreur-404.php");
+    }
     ?>
 </body>
 <?php include("footer.php"); ?>
